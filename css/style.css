@@ -1,0 +1,225 @@
+*{font-family: roboto;
+    padding: 0;
+    margin: 0;}
+.d-flex{
+    display: flex;
+}
+.header{
+    background:rgb(35, 35, 35);
+    color: white;
+    font-size:17px;
+    font-weight:300;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 20px;
+}
+.logo>img{
+    width: 120px;
+    height: 50px;
+    padding: 5px 0px;
+}
+.btn{
+    background:#ffe379;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 18px;
+    margin:5px 0px
+
+}
+.btn:hover{
+    background-color:rgb(35, 35, 35);
+    border: 1px solid #ffe379;
+    color: white;
+    transition: all 500ms ease;
+}
+.header ul{
+    display: flex;
+    padding: 20px 0px;
+}
+.header ul li{
+list-style: none;
+padding-right: 40px;
+cursor: pointer;
+}
+.header ul li:hover{
+    color: #ffe379;
+}
+.dropbox,.drop1{
+    width: 10vw;
+    position: absolute;
+    padding-top:10px;
+    transition: all ease 300ms;
+    transform: translateY(-5%);
+    opacity: 0;
+    z-index: 15;
+}
+.dropbox>div,.drop1>div{
+    background:rgb(26, 26, 26);
+    color: white;
+    padding: 15px 0px 15px 10px;
+    cursor: pointer;
+    display: none;
+}
+ .dropdown:hover .dropbox>div,.down1:hover .drop1>div{
+    display: block;
+}
+.dropbox>div:hover,.drop1>div:hover{
+    color: #ffe379;
+    background:rgb(35, 35, 35);
+}
+.dropdown:hover .dropbox,.down1:hover .drop1{
+    transform: translateY(0);
+    opacity: 1;
+}
+.down1{
+    position: relative;
+}
+.drop1{
+    padding: 0;
+    top:0;
+    left: 100%;
+}
+
+.mainbanner{
+    height: 100vh;
+}
+.main1{
+    background: url(../images/L-4.jpg)no-repeat;
+    background-size: cover;
+    filter: brightness(55%);
+    background-position: center 50%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.slider{
+    padding-top:120px;
+    display: flex;
+}
+
+.slider span{
+    color: #ffe379;
+}
+.sliderimg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.imgbacklay{
+    backdrop-filter: brightness(0.6);
+    padding: 0 10vh;
+}
+.slidertext{
+    width: 50%;
+    position: relative;
+
+}
+.slidertext h6{
+    color: #ffe379;
+    letter-spacing:1dvh;
+    font-size:24px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.slidertext p{
+    color:white;
+    font-size:19px;
+    font-weight:400; 
+    padding: 15px 0px;  
+}
+.slidertext h1{
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    line-height:90px;
+    padding: 20px 0px;
+    letter-spacing: 1px;
+}
+.btn1{
+    background: #ffe379;
+    border: none;
+    padding: 20px 20px;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+.btn1:hover{
+    border: 1px solid #ffe379;
+    background:rgb(35, 35, 35);
+    color:white;
+    transition: all 500ms ease;
+}
+.box1 {
+    background: rgb(35, 35, 35);
+    padding: 20px 30px;
+    color: white;
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    z-index: 1;
+    text-align: center;
+}
+.box2{
+    background: rgb(35, 35, 35);
+    padding: 20px 52px;
+    color: white;
+    position: absolute;
+    bottom: -40px;
+    right:340px;
+    z-index: 1;
+    text-align: center;
+}
+.box3{
+    background: rgb(35, 35, 35);
+    padding: 20px 48px;
+    color: white;
+    position: absolute;
+    bottom: -40px;
+    right: 90px;
+    z-index: 1;
+    text-align: center;
+}
+.plus{
+    color: #ffe379;
+    font-size: 30px;
+
+}
+.sliderimg h2{
+    font-size:6vh;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.sliderimg p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffe379;
+}
+.portfolio{
+    text-align: center;
+    background: black;
+    margin: auto;
+    padding-top:100px;
+}
+.portfolio h6{
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffe379;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.portfolio h2{
+    font-size:55px;
+    font-weight: 800;
+    color: white;
+    padding:5px 0px ;
+}
+.portfolio p{
+    color: #878787;
+    padding:10px 0px;
+    line-height:23px;
+}
